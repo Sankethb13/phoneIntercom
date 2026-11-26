@@ -1,0 +1,10 @@
+{
+  "name": "Intercom Android",
+  "image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
+  "hostRequirements": { "cpus": 4, "memory": "8gb" },
+  "postCreateCommand": "bash scripts/setup-android-sdk.sh",
+  "remoteEnv": {
+    "ANDROID_HOME": "/home/vscode/android-sdk",
+    "ANDROID_SDK_ROOT": "/home/vscode/android-sdk"
+  }
+}
