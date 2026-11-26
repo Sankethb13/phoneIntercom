@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intercom</string>
+    <string name="notif_channel">Active intercom</string>
+    <string name="notif_channel_desc">Shown while a voice link is running</string>
+</resources>
